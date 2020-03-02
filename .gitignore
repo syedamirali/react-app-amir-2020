@@ -2,3 +2,5 @@ node_modules
 playground
 moviesdata.json
 public/bundle.js
+yarn.lock
+package-lock.json
