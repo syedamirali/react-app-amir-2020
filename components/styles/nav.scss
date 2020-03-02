@@ -1,0 +1,18 @@
+.nav{
+    padding: 0px;
+    margin: 0px;
+    background-color: $back-color;
+}
+
+
+.nav a{
+    color: $color;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.nav a:hover, li:link{
+    transition: all ease-in-out 0.5s;
+    border-left: 4px solid $color;
+}
