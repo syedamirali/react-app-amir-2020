@@ -9,6 +9,7 @@ const movies=(props)=>{
     });
     return(
         <Row>
+        <h1>hello Update</h1>
         {list.length!=0?list:<Col style={{padding:'10px'}} className="bg-dark"><h3 className="text-light">No Item Found</h3></Col>}
         </Row>
     )
